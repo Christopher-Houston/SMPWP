@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>display epr requests</title>
+</head>
+<body>
+    <h1>EPR requests </h1>
+    <script>
+    function getParameterByName(name, https://inverkeilordownrefugesiding.netlify.app) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+var sn = getParameterByName('serialNumber');
+
+document.getElementById("write").innerHTML = sn;
+
+</script>
+
+</body>
+</html>
