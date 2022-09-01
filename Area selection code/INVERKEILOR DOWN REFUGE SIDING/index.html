@@ -8,15 +8,16 @@
     
 </head>
 <body>
-
+    <!-- HTML web page example-->
     <h1>INVERKEILOR DOWN REFUGE SIDING</h1>
-   Links below for schematics and log books 
-    
+    Links below for schematics and log books
+    <a href="https://docs.google.com/document/d/1-TOB8E7IMNvzljagEisBGcCdICCXfoQ8dKsQ9w72buk/edit">log book</a>
 
-   <p> <a href="Line closures Aberdeen to Newton Hill Down Main Line.pdf" download="redirect one">download link </a></p>
+    <!--download links to upload files, to upload enter file name into the Href section , download section is what it will be called when it downlaods,-->
+    <p> <a href="Line closures Aberdeen to Newton Hill Down Main Line.pdf" download="redirect one">download link </a></p>
     <a href="Sassy_the_Sasquatch.webp " download="newfilename">Download link 2</a>
+    <!--say hello to sassy-->
 
-
     <a href="" download>
         <img src="">
     </a>
@@ -26,19 +27,20 @@
     <a href="" download>
         <img src="">
     </a>
-   var x = document.createElement("VAR");
+    <!--request control-->
     <form action="https://inverkeilordownrefugesiding.netlify.app" method="get">
+        <!--get method used to allow the data to be transfered to any recieved by the Data_reciver tool-->
         <div>
             <label for="say">Name of person requesting  control?</label>
-            <input type="text" name="name" id="name" value="Enter Name <var> name </var>">
+            <input type="text" name="name" id="name" value="Enter Name">
         </div>
         <div>
             <label for="to">What line requesting for?</label>
-            <input type="text" name="line" id="line" value="ECN4"readonly>
+            <input type="text" name="line" id="line" value="ECN4" readonly>
         </div>
         <div>
             <label for="to">access point are you requesting access for?</label>
-            <input type="text" name="ap" id="ap" value="Inverkiilor Down Refuge Siding"readonly>
+            <input type="text" name="ap" id="ap" value="Inverkiilor Down Refuge Siding" readonly><!--read only makes it non editble-->
         </div>
         <div>
             <label for="to">How Many Are on track</label>
@@ -49,7 +51,7 @@
         </div>
     </form>
 
-
+    <!--relinquish control-->
     <form action="https://displaytest1.netlify.app" method="get">
         <div>
             <label for="say">Name of person relinquishing  control?</label>
@@ -57,11 +59,11 @@
         </div>
         <div>
             <label for="to">What line relinquishing for?</label>
-            <input name="to" id="to" value="ECN4"readonly>
+            <input name="to" id="to" value="ECN4" readonly>
         </div>
         <div>
             <label for="to">access point are you relinquishing  access for?</label>
-            <input name="ap" id="ap" value="Inverkiilor Down Refuge Siding"readonly>
+            <input name="ap" id="ap" value="Inverkiilor Down Refuge Siding" readonly>
         </div>
         <div>
             <label for="to">Has the track been cleared and is safe to resume transport on?</label>
