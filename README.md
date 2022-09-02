@@ -1,6 +1,6 @@
 # SMSIPCH
 
-
+View Read Me In Raw Form
 Identification and digital update system
 the program has the following structure:
   Seimens log in screen--not used but is in repository 
