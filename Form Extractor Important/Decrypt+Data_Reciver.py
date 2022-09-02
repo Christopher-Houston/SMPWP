@@ -42,7 +42,7 @@ def get_form_details(form):
         input_value =input_tag.attrs.get("value", "")
         # add everything to that list
         inputs.append({"type": input_type, "name": input_name, "value": input_value})
-    for select in form.find_all("select"):
+    for select in form.find_all("select"):  
         # get the name attribute
         select_name = select.attrs.get("name")
         # set the type as select
